@@ -1,5 +1,5 @@
-.vs/
-x64/
+boost_algorithms/.vs/
+boost_algorithms/x64/
 *.idb
 *.pdb
 *.obj
