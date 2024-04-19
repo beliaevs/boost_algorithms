@@ -8,15 +8,15 @@ int main()
 {
   {
     std::vector<int> v = { 1,3, 2, 5, 6 };
-    std::cout << boost::algorithm::any_of_equal(v, 2);
+    std::cout << boost::algorithm::any_of_equal(v, 2) << std::endl;
   }
   {
     std::set<int> s = { 1, 5, 2, 7 };
-    std::cout << boost::algorithm::any_of_equal(s, 2);
+    std::cout << boost::algorithm::any_of_equal(s, 3) << std::endl;
   }
   {
     std::set<int> s = { 1, 5, 2, 6 };
-    std:: cout << std::any_of(s.begin(), s.end(), [](auto e) { return e == 2; });
+    std:: cout << std::any_of(s.begin(), s.end(), [](auto e) { return e == 2; }) << std::endl;
   }
   return 0;
 }

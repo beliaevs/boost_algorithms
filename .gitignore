@@ -1,6 +1,12 @@
 boost_algorithms/.vs/
 boost_algorithms/x64/
+boost_algorithms/boost_algoriths/x64/
 *.idb
 *.pdb
 *.obj
+*.ilk
+*.recipe
+*.tlog
+*.log
+
 
