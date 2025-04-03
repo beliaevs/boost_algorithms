@@ -1,6 +1,7 @@
 boost_algorithms/.vs/
 boost_algorithms/x64/
 boost_algorithms/boost_algoriths/x64/
+build
 *.idb
 *.pdb
 *.obj
